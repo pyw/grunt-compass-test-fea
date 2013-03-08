@@ -1,0 +1,7 @@
+{
+  "name": "grunt_compass_test_fea",
+  "version": "0.1.0",
+	"dependencies": {
+      "grunt_compass_test_fui" : "git@github.com:pyw/grunt-compass-test-fui.git"
+   }
+}

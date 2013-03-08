@@ -1,0 +1,11 @@
+@import "compass/css3/border-radius";
+@import "vendor/a/bar";
+
+.f {
+	@include border-radius(10px);
+	background-color: blue;
+	background-image: image-url("test.jpeg");
+	width: 100px;
+	height: 100px;
+	
+}
