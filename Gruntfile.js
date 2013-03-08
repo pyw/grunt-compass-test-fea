@@ -27,11 +27,11 @@ module.exports = function (grunt) {
 		    dist: {                   // Target
 		      options: {              // Target options
 		        relativeAssets: true,
-						sassDir: 'src',
+						sassDir: 'src/',
 						cssDir: 'dist',
 		        environment: 'production',
 						outputStyle: 'expanded',
-						imagesDir: 'img'
+						imagesDir: 'src/img'
 						
 		      }
 		    }

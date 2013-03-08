@@ -1,0 +1,11 @@
+.f {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  background-color: blue;
+  background-image: url('../../../src/img/grunt_compass_test_fui/test.jpeg?1362732539');
+  width: 100px;
+  height: 100px;
+}

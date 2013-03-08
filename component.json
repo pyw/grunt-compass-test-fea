@@ -3,5 +3,11 @@
   "version": "0.1.0",
 	"dependencies": {
       "grunt_compass_test_fui" : "git@github.com:pyw/grunt-compass-test-fui.git"
-   }
+   },
+	"exportsOverride": {
+	    "grunt_compass_test_fui": {
+	      "": "dist/scss",
+				"../img": "dist/img"
+	    }
+	 }
 }
